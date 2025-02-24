@@ -20,6 +20,7 @@ def linearsearch():
     array = data.get('array')
     target = data.get('target')
 
+
     if not array or not isinstance(array, list):
         return jsonify({'error': 'Invalid array input'}), 400
     if target is None:
