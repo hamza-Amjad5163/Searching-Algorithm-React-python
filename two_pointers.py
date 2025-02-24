@@ -26,6 +26,7 @@ def two_pointers(arr, target):
             right -= 1
     return False, steps
 
+
 @app.route('/twopointers', methods=['POST'])
 def twopointers():
     data = request.get_json()

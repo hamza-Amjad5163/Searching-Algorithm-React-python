@@ -75,6 +75,7 @@ const TwoPointersVisualizer = () => {
     ));
   };
 
+  
   return (
     <>
       <Navbar />
